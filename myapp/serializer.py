@@ -14,7 +14,4 @@ class RegSerializer(serializers.ModelSerializer):
         fields = ['id', 'name', 'phone_number', 'email']
 
 
-# class ContactSerializer(serializers.ModelSerializer):
-#     class Meta:
-#         model=Contact
-#         fields='__all__'        
+      

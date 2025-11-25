@@ -20,12 +20,5 @@ class Register(models.Model):
     def _str_(self):
      return self.name   
 
-# email
-# class Contact(models.Model):
-#     name=models.CharField(max_length=50)
-#     phone_number=models.BigIntegerField()
-#     email=models.EmailField()
-
-#     def __str__(self):
-#         return self.name     
+    
 
